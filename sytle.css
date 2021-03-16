@@ -248,12 +248,213 @@ ul {
           background-color: white;
       }
       .deals_of_the_week{
-          border: turquoise solid 2px;
+          border: white solid 2px;
           margin-top: 570px;
           width: 100%;
           position: absolute;
-          height: 350px;
+          height: 450px;
+          background-color: white;
+          flex-direction: row;
+          display: flex;
+          background-position: center;
+          justify-content: space-evenly;
+
       }
+      .card_one {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_one button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_one button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_two {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_two button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_two button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_three {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_three button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_three button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_four {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_four button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_four button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_five {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_five button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_five button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_six {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_six button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_six button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+
+
+      
 
 
   
