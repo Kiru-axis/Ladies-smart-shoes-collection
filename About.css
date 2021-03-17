@@ -47,7 +47,6 @@ body{
     margin: 0 15px;
     display: flex;
     flex-wrap: nowrap;
-    /*background-color: DodgerBlue;*/
   }
   .container {
     display:flex;
@@ -69,7 +68,7 @@ button{
   align-content: center;
   background-color: gray;
   size: 24px;
-  border-radius: 12px;
+  border-radius:9px;
 }
 .boxs,.boxe{
   height: 220px;

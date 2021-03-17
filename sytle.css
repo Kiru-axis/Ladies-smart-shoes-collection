@@ -1,0 +1,460 @@
+body{
+    background-color: #dac9dc;
+    width: 100%;
+    height: 100%;
+    font-family:Arial,Arial, Helvetica, sans-serif ;
+    display: block;
+
+}
+h2{
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c4c4c4;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: white;
+  }
+  
+  .active {
+    background-color: #dac9dc;
+    
+  }
+ 
+  #content{
+
+  }
+  .heading{
+      text-align: center;
+      border: white solid 3px;
+      height: 50px;
+      width: 100%;
+      position: absolute; 
+      /* flex-direction: row;
+      display: flex;
+      background-position: center; */
+      justify-content: space-evenly;
+      opacity: 0.7;
+      margin-top: 5px;
+      
+    }
+    .top_selling{
+      text-align: center;
+      border: white solid 3px;
+      height: 440px;
+      width: 100%;
+      position: absolute; 
+      margin-top: 60px;
+      background-color: white;
+      flex-direction: row;
+      display: flex;
+      background-position: center;
+      justify-content: space-evenly;
+
+    }
+    h6{
+        text-align: left;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 250px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: 5px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 250px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 13px;
+      }
+      
+      .card_2 button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_2 button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 11px;
+      }
+      .card_3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 250px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_3 button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_3 button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_4 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 250px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_4 button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_4 button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_5 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_5 button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_5 button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .top_rated{
+          /* margin-top: 600px; */
+          border: white solid 2px;
+          height:50px;
+          width: 100%;
+          position: absolute;
+          /* margin-bottom: 5px; */
+          margin-top: 515px;
+          background-color: white;
+      }
+      .deals_of_the_week{
+          border: white solid 2px;
+          margin-top: 570px;
+          width: 100%;
+          position: absolute;
+          height: 450px;
+          background-color: white;
+          flex-direction: row;
+          display: flex;
+          background-position: center;
+          justify-content: space-evenly;
+
+      }
+      .card_one {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_one button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_one button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_two {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_two button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_two button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_three {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_three button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_three button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_four {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_four button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_four button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_five {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_five button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_five button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+      .card_six {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        text-align: center;
+        font-family: arial;
+        border: white solid 3px;
+        height: 260px;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 10px;
+      }
+      
+      .card_six button {
+        border: none;
+        outline: 0;
+        padding: 11px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 10px;
+      }
+      
+      .card_six button:hover {
+        opacity: 0.7;
+      } 
+      p{
+          font-size: 15px;
+      }
+
+
+      
+
+
+  
