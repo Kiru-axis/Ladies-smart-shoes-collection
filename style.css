@@ -1,3 +1,73 @@
 .navbar{
     display: flex;
+    background-color: #DAC9DC;
+    justify-content: space-between;
+} 
+.left-side{
+    text-transform: uppercase;
+}
+.search-bar{
+    color: red; 
+}
+
+.search-word{
+    margin-right: 40px;
+    color: brown;
+}
+
+.search-word a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
+body{
+    width: 100%;
+    background-color:#F0E1F2;
+}
+th{
+    background-color: white;
+
+}
+
+
+
+.cart-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-information{
+    display: flex;
+    margin-top: 4px;
+}
+
+.login-form{
+    border: 1px solid white;
+}
+input{
+    display: block;
+}
+input{
+    display: block;
+}
+
+.bottom{
+    display: flex;
+}
+
+.adverts{
+    display: flex;
+   
+}
+.adverts > p{
+    background-color:white;
+    margin: 10px;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    background-image: url("./images/tyron-harkiss-foster-BIkif7IMZSQ-unsplash.jpg");
+    background-position: center;
 }
