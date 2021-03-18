@@ -22,4 +22,4 @@ To access this project on your local files, you can clone it using these steps
 1. JavaScript
 1. Git
 ### Live Site
-View [live]()
+View [live](https://kiru-axis.github.io/Ladies-smart-shoes-collection/)
