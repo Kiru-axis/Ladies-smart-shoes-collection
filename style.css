@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    background-color: #DAC9DC;
+    justify-content: space-between;
+    padding-top: 20px;
+} 
+.left-side{
+    text-transform: uppercase;
+}
+.search-bar{
+    color: red; 
+}
+
+.search-word{
+    margin-right: 40px;
+    color: brown;
+}
+
+.search-word a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
