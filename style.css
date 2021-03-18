@@ -23,3 +23,73 @@
 a:hover{
     color: white;
 }
+body{
+    width: 100%;
+    background-color:#F0E1F2;
+}
+
+
+#row-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 40px;
+    
+}
+
+.properties{
+    display: flex;
+}
+.property-aligning{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    gap: 130px;
+}
+.click-me{
+    display: flex;
+    justify-content: space-between;
+    gap: 260px;
+}
+
+.cart-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-information{
+    display: flex;
+    margin-top: 4px;
+}
+
+.login-form{
+    display: block;
+    background-color: white;
+}
+
+
+.login-form > p{
+    text-align: center;
+    background-color:#F0E1F2;
+}
+
+input{
+    background-color:#F0E1F2;
+}
+
+.bottom{
+    display: flex;
+}
+
+.adverts{
+    display: flex;
+   
+}
+.adverts > p{
+    background-color:white;
+    margin: 10px;
+    flex-wrap: wrap;
+    background-image: url("./images/tyron-harkiss-foster-BIkif7IMZSQ-unsplash.jpg");
+    background-position: center;
+}
